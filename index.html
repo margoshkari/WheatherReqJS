@@ -11,11 +11,14 @@
 <body>
   <div class="page">
     <select onchange="RequestWeather(this)">
-      <option value="latitude=48.450001&longitude=34.983334">Dnipro</option>
-      <option value="latitude=48.450001&longitude=34.983334">Kyiv</option>
-      <option value="latitude=48.450001&longitude=34.983334">Kharkiv</option>
+      <option value="latitude=48.450001&longitude=34.983334" name="Dnipro">Dnipro</option>
+      <option value="latitude=50.450001&longitude=30.523333" name="Kyiv">Kyiv</option>
+      <option value="latitude=49.988358&longitude=36.232845" name="Kharkiv">Kharkiv</option>
     </select>
-  
+  <h2 id="city">City: Dnipro</h2>
+  <span id="temp">temperature: </span>
+  <span id="weather">weather: </span>
+  <span id="wind">wind: </span>
     
       
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
